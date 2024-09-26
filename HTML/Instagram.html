@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!--SIEMPRE PONER-->
+<html lang="es"> <!--LENGUAJE-->
+<head> <!--Encabezado-->
+    <meta charset="UTF-8"> <!--Palabras clave-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title> <!--Titulo de la pagina-->
+    <!--href = crear enlaces-->
+    <!--link = -relacion entre html y css-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> <!--Cuerpo de la pagina-->
+    <div class="container">
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <div class="logo">
+                <h1>Instagram</h1>
+            </div> <!--Para dividir-->
+            <nav> <!--como enlaces-->
+                <ul><!--lista no ordenada-->
+                    <!--img = imagen que se mostrara en la pagina-->
+                    <!--li = declara los elementos de una lista-->
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/home--v2.png"> Inicio</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"> Buscar</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/compass.png"> Explorar</li>
+                    <li><img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-reel-logo-icon-download-in-svg-png-gif-file-formats--menu-video-chatting-brand-social-media-pack-logos-icons-3853225.png?f=webp&w=256"> Reels</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/chat--v1.png"> Mensajes</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/hearts.png"> Notificaciones</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/plus.png"> Crear</li>
+                    <li><img src="https://img.icons8.com/material-rounded/24/000000/user.png"> Perfil</li>
+                    <li><img src="https://i.pinimg.com/564x/18/0e/79/180e79b24c26f845191106e288ad219f.jpg"> Threads</li>
+                    <li><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"> Más</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Sección principal -->
+        <div class="main-content">
+            <!-- Historias -->
+            <div class="stories">
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+                <div class="story"><img src="https://via.placeholder.com/80" alt="story"></div>
+            </div>
+
+            <!-- Publicación -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/50" alt="user">
+                    <div class="post-info">
+                        <strong>usuario</strong>
+                        <span>Ubicacion</span>
+                    </div>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/menu-2.png" class="menu-icon">
+                </div>
+                <div class="post-image">
+                    <img src="https://via.placeholder.com/600x400" alt="post">
+                </div>
+                <div class="post-footer">
+                    <div class="post-actions">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/comments.png">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/send.png">
+                    </div>
+                    <span>200 Me gusta</span> <!--Agrupar elemetos en linea-->
+                    <!-- p = parrafo-->
+                    <p><strong>usuario</strong> Descripcion de publicación</p>
+                    <span class="gray-text">Ver traducción</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección lateral derecha -->
+        <div class="right-sidebar">
+            <div class="profile-section">
+                <img src="https://via.placeholder.com/50" alt="profile">
+                <div>
+                    <strong>usuario</strong>
+                    <span>MJ</span>
+                    <a href="#">Cambiar</a> <!--Enlace donde el usuario puede interactuar--->
+                    <!-- checar   <br></br>    -->
+
+                </div>
+            </div>
+
+            <div class="suggestions">
+                <h4>Sugerencias para ti</h4> <!-- de h1 a h6 = encabeazdos o titulos-->
+                <div class="suggestion">
+                    <img src="https://via.placeholder.com/50" alt="user">
+                    <div>
+                        <strong>nombre1</strong> <!--Marca con mas enfasis el texto-->
+                        <span>Seguir</span>
+                    </div>
+                </div>
+
+                    <div class="suggestion">
+                        <img src="https://via.placeholder.com/50" alt="user">
+                        <div>
+                            <strong>nombre2</strong>
+                            <span>Seguir</span>
+                        </div>
+                    </div>
+
+                    <div class="suggestion">
+                        <img src="https://via.placeholder.com/50" alt="user">
+                        <div>
+                            <strong>nombre3</strong>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
